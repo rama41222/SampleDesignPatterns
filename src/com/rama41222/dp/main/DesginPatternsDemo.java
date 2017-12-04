@@ -14,6 +14,9 @@ import com.rama41222.factory.abstractfactory.AbstractFactory;
 import com.rama41222.factory.abstractfactory.FactoryProducer;
 import com.rama41222.factory.shapefactory.Shape;
 import com.rama41222.factory.shapefactory.ShapeFactory;
+import com.rama41222.observer.ObserverOne;
+import com.rama41222.observer.ObserverTwo;
+import com.rama41222.observer.Subject;
 import com.rama41222.template.games.Football;
 import com.rama41222.template.games.Cricket;
 import com.rama41222.singleton.DatabaseManager;
@@ -74,6 +77,17 @@ public class DesginPatternsDemo {
         AudioOnlyPlayer mp = new AudioOnlyPlayer();
         mp.play("Audio");
         mp.play("Advanced");
+        
+        //Observer pattern
+        
+        Subject s = new Subject();
+        ObserverOne one = new ObserverOne(s);
+        ObserverTwo two = new ObserverTwo(s);
+       
+        s.set("Init");
+        s.set("Space Defense Systems on");
+        s.set("Connected to inter Plannetary network");
+        s.set("Move to staturn");
     }
     
 }
