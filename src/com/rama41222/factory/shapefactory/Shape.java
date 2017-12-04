@@ -3,17 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.rama41222.colorfactory;
+package com.rama41222.factory.shapefactory;
 
 /**
  *
  * @author Rama41222
  */
-public class Green implements Color {
-
-    @Override
-    public void fill() {
-        System.out.println("Filled with Green");
-    }
-    
+public interface Shape {
+    void draw();
+    void init();
+    void erase();
 }

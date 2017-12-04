@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.rama41222.colorfactory;
+package com.rama41222.factory.colorfactory;
 
 import com.rama41222.factory.abstractfactory.AbstractFactory;
-import com.rama41222.shapefactory.Shape;
+import com.rama41222.factory.shapefactory.Shape;
 
 /**
  *

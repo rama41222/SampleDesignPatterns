@@ -5,8 +5,8 @@
  */
 package com.rama41222.factory.abstractfactory;
 
-import com.rama41222.colorfactory.Color;
-import com.rama41222.shapefactory.Shape;
+import com.rama41222.factory.colorfactory.Color;
+import com.rama41222.factory.shapefactory.Shape;
 
 /**
  *

@@ -4,8 +4,8 @@
  * and open the template in the editor.
  */
 package com.rama41222.factory.abstractfactory;
-import com.rama41222.colorfactory.ColorFactory;
-import com.rama41222.shapefactory.ShapeFactory;
+import com.rama41222.factory.colorfactory.ColorFactory;
+import com.rama41222.factory.shapefactory.ShapeFactory;
 
 /**
  *
